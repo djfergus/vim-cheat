@@ -2,7 +2,7 @@
 
 # Sway and VIM
 key | desc
----|---
+:---:|---
 `meta`-`1`,`2`,`3` 	|	switch workspaces
 `meta`-`shift`-`1`,`2`,`3` |	move window to workspace
 `meta`-`shift`-`c` |	reload sway (ctrl-o in nano to save config)
@@ -20,7 +20,7 @@ key | desc
 # VIM
 ## Normal Mode
 key | desc
----|---
+:---:|---
 `h`,`j`,`k`,`l` |move
 `gj`,`gjk` |move one display line
 `.`| repeat
@@ -33,7 +33,7 @@ key | desc
 `W`,`B`,`E`,`gE`| as above but WORD (only whitespace)  
 
 key | desc
----|---
+:---:|---
 `u`| undo
 `<C-r>`| redo
 `g;/u<C-r>`| move to last change  
@@ -46,11 +46,11 @@ key | desc
 `cc` |delete line and insert
 
 key | desc
----|---
+:---:|---
 `<C-u>`| page up (or shift-up)
 `<C-d>`| page down (or shift-down)
-`{`,`}`| jump to start of next/previous paragraph
-`%`| jump to matching block (parenthesis, if/endif etc)
+`{`,`}`| jump to start of next/prev para
+`%`| jump to matching block (parenthesis, if/endif,)
 `$`| end of line
 `_`| start of text
 `0`| start of line
@@ -76,29 +76,29 @@ key | desc
 `I` |insert at start of line
 `a` |append to insert mode
 `A` |append end of line into insert mode
-`o` |add line and insert mode (can be anywhere in line)
+`o` |add line and insert mode (anywhere in line)
 `O` |insert line above
 `zz`| recenter screen at cursor
 
 key | desc
----|---
-`xp` |transpose next two characters (delete paste)
+:---:|---
+`xp` |transpose next two characters (del paste)
 `ddp` |transpose this line and next
 `yyp` |duplicate line
 
 ## Searching
 key | desc
----|---
+:---:|---
 `/text<CR>`| search text
 `*`| search word under cursor
 `n` |next match
-`cw` |change word (then n to find next then . to change again)
+`cw` |change word (then `n` to find next then `.` to change again)
 `N` |previous match
 `gn` |select next match in visual mode
 `gnc` |change next match
 
 key | desc
----|---
+:---:|---
 `<C-r><C-w>` |expand search term to whole word
 `<C-r>"`| paste buffer into search term
 `<C-r>+`| paste sys clip into search term
@@ -108,18 +108,18 @@ key | desc
 
 ## Miscellaneous
 key | desc
----|---
+:---:|---
 `<C-a>`,`<C-x>`| jump to next number add/subtract
 `180<C-a>`| jump to next number add 180
 list of numbers 0), | select in visual mode then g<C-a> to increment all
 
 key | desc
----|---
+:---:|---
 `:6t.`| copy line 6 to below current line
 `:t6`| copy current line to below line 6
 `:6m.`| move line 6 to below current line
 `:m6`| move current line to below line 6
-`:read !{cmd}`| Execute {cmd} in the shell and insert its standard output below the cursor
+`:read !{cmd}`| Exec shell {cmd} insert output below cursor
 `:edit index.html`| open file
 `:edit %:h<tab>`| open file in current file dir
 `:set ignorecase`|
@@ -130,32 +130,32 @@ key | desc
 `:abbr @@ dferguson@gmail.com`| autocomplete
 
 key | desc
----|---
+:---:|---
 `=ip`| auto indent paragraph
 `==` |auto indent current line
 `>>` |indent line
 `<<` |unindent line
 
 key | desc
----|---
+:---:|---
 `mm`| mark
 `` `m ``| return to mark
 `mM`/`` `M ``| global mark (file) mark before file diving eg :vimgrep
 `` `H `` | goto editing homer config on unraid
 
 key | desc
----|---
+:---:|---
 `<C-i>`,`<C-o>`| forward/back in jump list
 
 key | desc
----|---
+:---:|---
 `gf`| goto file under cursor
 `:set path?`| check path
 `<C-]>`| goto definition (setup?)
 
 ## Window/buffer management
 key | desc
----|---
+:---:|---
 `:ls`| list buffers
 `:e!`| revert changes (reread file)
 `<C-6>`| switch between open buffers/files
@@ -170,16 +170,16 @@ key | desc
 
 ## Tab management
 key | desc
----|---
-`<C-w>T`| Move the current window into its own tab
-`:tabc` |Close the current tab page and all of its windows
+:---:|---
+`<C-w>T`| Move current window into own tab
+`:tabc` |Close current tab page and all windows
 `2gt`| Switch to tab page number 2
 `gt` |Switch to the next tab page
 `gT` |Switch to the previous tab page
 
 ## Netrw file management
 key | desc
----|---
+:---:|---
 `vim .` | start in netrw mode
 `:e /tmp` | open full path
 `:E` | netrw in dir of active buffer
@@ -189,12 +189,12 @@ key | desc
 
 ## Command line
 key | desc
----|---
+:---:|---
 `nvim -d file1 file2`| diff mode
 
 ## Visual Mode
 key | desc
----|---
+:---:|---
 `<C-[>` | esc
 `v` |  visual mode
 `V` |  visual line mode
@@ -211,13 +211,13 @@ key | desc
 `:normal i//` |  comment all selected lines
 `:normal i#` |  comment all selected lines
 `:!sort` | shell sort
-`{`,`}`| jump to start of next/previous paragraph
+`{`,`}`| jump to start of next/prev para
 `vip`| select current paragraph
 `=`| autoindent
 
 ## Insert Mode (also command mode :)
 key | desc
----|---
+:---:|---
 `<C-[>` |  esc
 `<C-r>0` |  paste
 `<C-o>zz` |  one-shot command

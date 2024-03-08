@@ -98,7 +98,7 @@ key | desc
 `gnc` |change next match
 
 key | desc
-:---:|---
+:------------------------------:|-----------
 `<C-r><C-w>` |expand search term to whole word
 `<C-r>"`| paste buffer into search term
 `<C-r>+`| paste sys clip into search term
@@ -108,7 +108,7 @@ key | desc
 
 ## Miscellaneous
 key | desc
-:---:|---
+:------------------------:|---
 `<C-a>`,`<C-x>`| jump to next number add/subtract
 `180<C-a>`| jump to next number add 180
 list of numbers 0), | select in visual mode then g<C-a> to increment all

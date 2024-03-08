@@ -5,7 +5,7 @@ key | desc
 :---:|---
 `meta`-`1`,`2`,`3` 	|	switch workspaces
 `meta`-`shift`-`1`,`2`,`3` |	move window to workspace
-`meta`-`shift`-`c` |	reload sway (ctrl-o in nano to save config)
+`meta`-`shift`-`c` |	reload sway 
 `meta`-`enter`	|	open terminal
 `meta`-`d`	|	open launcher (esc to dismiss)
 `meta`-`f`	|	window to full screen
@@ -127,7 +127,7 @@ key | desc
 `:set ignorecase!`| toggle
 `:set ignorecase?`| status
 `:set ignorecase&`| set default
-`:abbr @@ dferguson@gmail.com`| autocomplete
+`:abbr @@ autotext`| autocomplete
 
 key | desc
 :---:|---
